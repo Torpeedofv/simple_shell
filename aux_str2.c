@@ -5,6 +5,7 @@
  * @s: Type char pointer str
  * Return: duplicated str
  */
+
 char *_strdup(const char *s)
 {
 	char *new;
@@ -23,6 +24,7 @@ char *_strdup(const char *s)
  * @s: Type char pointer
  * Return: Always 0.
  */
+
 int _strlen(const char *s)
 {
 	int len;
@@ -40,6 +42,7 @@ int _strlen(const char *s)
  *
  * Return: 1 if are equals, 0 if not.
  */
+
 int cmp_chars(char str[], const char *delim)
 {
 	unsigned int i, j, k;
@@ -67,6 +70,7 @@ int cmp_chars(char str[], const char *delim)
  *
  * Return: string splited.
  */
+
 char *_strtok(char str[], const char *delim)
 {
 	static char *splitted, *str_end;
@@ -116,6 +120,7 @@ char *_strtok(char str[], const char *delim)
  * @s: input string
  * Return: 1 if string is a number. 0 in other case.
  */
+
 int _isdigit(const char *s)
 {
 	unsigned int i;

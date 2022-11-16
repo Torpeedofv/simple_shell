@@ -6,6 +6,7 @@
  * @src: const char pointer the source of str
  * Return: the dest
  */
+
 char *_strcat(char *dest, const char *src)
 {
 	int i;
@@ -23,12 +24,14 @@ char *_strcat(char *dest, const char *src)
 	dest[i] = '\0';
 	return (dest);
 }
+
 /**
  * *_strcpy - Copies the string pointed to by src.
  * @dest: Type char pointer the dest of the copied str
  * @src: Type char pointer the source of str
  * Return: the dest.
  */
+
 char *_strcpy(char *dest, char *src)
 {
 
@@ -42,12 +45,14 @@ char *_strcpy(char *dest, char *src)
 
 	return (dest);
 }
+
 /**
  * _strcmp - Function that compares two strings.
  * @s1: type str compared
  * @s2: type str compared
  * Return: Always 0.
  */
+
 int _strcmp(char *s1, char *s2)
 {
 	int i;
@@ -61,12 +66,14 @@ int _strcmp(char *s1, char *s2)
 		return (-1);
 	return (0);
 }
+
 /**
  * _strchr - locates a character in a string,
  * @s: string.
  * @c: character.
  * Return: the pointer to the first occurrence of the character c.
  */
+
 char *_strchr(char *s, char c)
 {
 	unsigned int i = 0;
@@ -78,12 +85,14 @@ char *_strchr(char *s, char c)
 		return (s + i);
 	return ('\0');
 }
+
 /**
  * _strspn - gets the length of a prefix substring.
  * @s: initial segment.
  * @accept: accepted bytes.
  * Return: the number of accepted bytes.
  */
+
 int _strspn(char *s, char *accept)
 {
 	int i, j, bool;
