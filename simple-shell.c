@@ -7,6 +7,6 @@
 
 int main(void)
 {
-	printf("A code betty will be proud of.");
+	printf("A code betty will be proud of.\n");
 	return 0;
 }
