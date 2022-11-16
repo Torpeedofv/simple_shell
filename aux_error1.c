@@ -1,4 +1,4 @@
-include "shell.h"
+#include "shell.h"
 
 /**
  * strcat_cd - function that concatenates the message for cd error
@@ -9,6 +9,7 @@ include "shell.h"
  * @ver_str: counter lines
  * Return: error message
  */
+
 char *strcat_cd(data_shell *datash, char *msg, char *error, char *ver_str)
 {
 	char *illegal_flag;
@@ -43,6 +44,7 @@ char *strcat_cd(data_shell *datash, char *msg, char *error, char *ver_str)
  * @datash: data relevant (directory)
  * Return: Error message
  */
+
 char *error_get_cd(data_shell *datash)
 {
 	int length, len_id;
@@ -82,6 +84,7 @@ char *error_get_cd(data_shell *datash)
  * @datash: data relevant (counter, arguments)
  * Return: Error message
  */
+
 char *error_not_found(data_shell *datash)
 {
 	int length;
@@ -115,6 +118,7 @@ char *error_not_found(data_shell *datash)
  *
  * Return: Error message
  */
+
 char *error_exit_shell(data_shell *datash)
 {
 	int length;
